@@ -7,6 +7,7 @@
 
 // const score = 100
 const scoref = 100.77
+let x;
 
 
 // const id = Symbol('123')
@@ -33,5 +34,5 @@ const myFunction = function(){
     console.log("Kala Kutta Bhu Bhou");
 }
 
-console.log(typeof myFunction)
-console.log(typeof myDetails)
+console.log(typeof scoref)
+console.log(myFunction)
