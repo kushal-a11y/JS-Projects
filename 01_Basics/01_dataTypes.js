@@ -1,4 +1,4 @@
-"Use scrict"; //Treat this as newer version
+"Use strict"; //Treat this as newer version
 
 // alert(3 + 3) // Error: we are using nodeJS not Browser
 
