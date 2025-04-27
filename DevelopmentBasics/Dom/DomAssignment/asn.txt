@@ -1,0 +1,152 @@
+📚 Part 1: Fundamental Exercises (Must Do)
+Capture Elements
+
+Create a simple HTML page with:
+
+A heading <h1>Welcome</h1>
+
+A paragraph <p>Hello world!</p>
+
+A button <button>Change Text</button>
+
+Using JavaScript, select each one of them using:
+
+getElementById
+
+getElementsByClassName
+
+getElementsByTagName
+
+querySelector
+
+querySelectorAll
+
+Task: Log each selection to console.
+
+Manipulate Elements
+
+On button click:
+
+Change the <h1> text to "You Clicked the Button!" using .innerText.
+
+Change the paragraph's background color to yellow.
+
+Add a border radius of 10px to the paragraph.
+
+Set and Get Attributes
+
+Create an image <img> without a src.
+
+Using JavaScript:
+
+Set the src attribute.
+
+Set an alt attribute.
+
+Change the width attribute.
+
+Difference Between innerHTML and textContent
+
+Create a div <div id="content">Hello</div>.
+
+Try:
+
+Updating it with innerHTML = "<b>Bold Hello</b>".
+
+Updating it with textContent = "<b>Bold Hello</b>".
+
+Observe and comment what happens differently.
+
+NodeList vs HTMLCollection
+
+Create multiple <li> items inside a <ul>.
+
+Select them using:
+
+querySelectorAll
+
+getElementsByTagName
+
+Task:
+
+Loop through both and change the text color to red.
+
+Hint: Notice if you need to manually convert HTMLCollection to an array!
+
+🛠️ Part 2: Mini Projects (Practice Powerups)
+1. Simple TODO List App
+HTML:
+
+An input box
+
+A button ("Add")
+
+An empty <ul>
+
+JavaScript:
+
+When button clicked, take input value and create a new <li> inside <ul>.
+
+Clear the input box after adding.
+
+Bonus:
+
+If the input is empty and the user clicks, alert "Please enter a task!".
+
+2. Color Picker
+Create 5 buttons — each with a different color (like red, green, blue, yellow, purple).
+
+Create a div (square box).
+
+When user clicks a button, change the background color of the box to the button's color.
+
+3. Dynamic Image Gallery
+Create 3 thumbnails (small images).
+
+When user clicks any thumbnail, update a bigger image view at the top.
+
+🎯 Part 3: Deepening Understanding Tasks
+Convert NodeList to Array and Use Array Methods
+
+Create multiple buttons on a page.
+
+Select them using querySelectorAll.
+
+Convert the NodeList into an Array using Array.from().
+
+Use forEach to add a click event on each button that logs the button text.
+
+Write Notes on
+
+Difference between getElementById, getElementsByClassName, querySelector, and querySelectorAll.
+
+Difference between NodeList and HTMLCollection.
+
+When to use innerHTML vs textContent.
+
+What happens if you try to use Array methods (like map) directly on NodeList or HTMLCollection.
+
+Challenge yourself:
+
+Make a function changeAllBackgrounds(color) that, when called, changes background of all divs on the page to the given color.
+
+Submission style 📋
+When you finish:
+
+Create a folder structure like:
+
+bash
+Copy code
+/homework-day1/
+    /exercises/
+    /mini-projects/
+    /notes/
+Inside each project, create:
+
+index.html
+
+script.js
+
+(optional) style.css
+
+For notes, write a simple text file or markdown file.

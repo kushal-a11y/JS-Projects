@@ -1,0 +1,73 @@
+/* colorpicker.css */
+
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #e0eafc);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Box where the color will change */
+#square-box {
+    width: 300px;
+    height: 300px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+    transition: background-color 0.5s ease;
+}
+
+/* Container to align buttons */
+.button-container {
+    display: flex;
+    flex-direction: row;  /* Keep buttons in a horizontal row */
+    gap: 20px;            /* Space between buttons */
+    justify-content: center;
+}
+
+/* Common button styling */
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+/* Individual button colors */
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+    color: black; /* Better readability on yellow */
+}
+
+.purple {
+    background-color: purple;
+}
+
+/* Button hover effect */
+button:hover {
+    transform: scale(1.1);  /* Slightly enlarge the button */
+    opacity: 0.9;
+}
