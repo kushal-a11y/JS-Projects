@@ -13,6 +13,7 @@ body {
 
 /* Box where the color will change */
 #square-box {
+    margin-top: 20px;
     width: 400px;
     height: 400px;
     background-color: white;
